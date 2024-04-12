@@ -6,7 +6,8 @@ body {
 }
 
 .grid-container {
-  background: #c2d438;
+  background: gray;
+  color: aqua;
   max-width: 900px;
   margin: 0 auto;
   display: grid;
@@ -16,10 +17,10 @@ body {
 }
 
 .grid-container>div {
-  background: #8b34c1;
+  background: black;
   text-align: center;
   padding: 20px;
-  border: 1px solid #dc1c1c;
+  border: 1px solid whitesmoke;
 }
 
 .grid-container>div:nth-child(1) {
